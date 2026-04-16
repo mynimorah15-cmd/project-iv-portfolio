@@ -18,7 +18,7 @@ h1{
 
 /* needs to be put the the child you want to expand */
 main {
-    background-image: url(../img/polka.png);
+    background-image: url(../img/polkadot.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -39,6 +39,34 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 0.25rem;
+}
+
+.red-skewt-featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(156, 3, 3);
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .red-skewt-featured {
+        grid-template-columns: 1fr;
+    }
+}
+
+.red-skewt-featured-imgae { 
+    max-width: 400px;
+
+}
+
+.red-skewt-intro {
+    background-color: rgb(156, 3, 3);
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 100px;
 }
 
 .red-skewt-row {
