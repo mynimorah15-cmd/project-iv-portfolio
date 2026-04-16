@@ -5,6 +5,10 @@ header {
     align-items: center;
 }
 
+h1{ 
+    color: rgb(156, 3, 3)
+}
+
 /* make the layout page aware */
 .red-skewt-main-wrapper {
     min-height: 100vh;
@@ -30,16 +34,33 @@ main {
     margin-right: auto;
 }
 
+.red-skewt-list-items{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 0.25rem;
+}
+
 .red-skewt-row {
     background-color: rgba(255, 255, 255, 0.95);
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 20px;
     flex: 1;
     margin-bottom: 32px;
     padding: 32px;
     border-radius: 16px;
     margin-bottom: 100px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .red-skewt-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 footer {
     background: powderblue;
