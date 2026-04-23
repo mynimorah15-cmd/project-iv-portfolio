@@ -4,7 +4,7 @@ img{
 }
 
 header {
-    background: rgb(0, 0, 0);
+    background: rgb(156, 3, 3);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +69,7 @@ nav a:focus {
 
 /* needs to be put the the child you want to expand */
 main {
-    background-image: url(../img/polka3.jpeg);
+    background-image: url(../img/stripes.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -90,7 +90,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 0.25rem;
-    margin-bottom: 20px: 
+    margin-bottom: 20px; 
 }
 
 @media screen and (max-width: 768px) {
@@ -155,7 +155,7 @@ main {
 
 
 footer {
-    background: rgb(0, 0, 0);
+    background:  rgb(156, 3, 3);
     padding: 20px;
     text-align: center;
 }
