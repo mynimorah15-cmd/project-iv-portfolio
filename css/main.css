@@ -167,6 +167,10 @@ footer {
     text-align: center;
 }
 
+footer img {
+    max-width: 24px;
+}
+
 .container {
   position: relative;
 }
