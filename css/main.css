@@ -70,7 +70,7 @@ nav a:focus {
 
 /* needs to be put the the child you want to expand */
 main {
-    background-image: url(../img/stripes.jpeg);
+    background-image: url(../background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
