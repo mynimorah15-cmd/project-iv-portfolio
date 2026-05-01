@@ -152,6 +152,7 @@ main {
     }
 }
 
+
 @media screen and (max-width: 768px) {
   .red-skewt-row {
     grid-template-columns: 1fr;
